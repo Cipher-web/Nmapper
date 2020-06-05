@@ -50,31 +50,31 @@ clear
 
 echo
 
-echo -e   $cyan"~~~~~~~~~~~~~~~~~~~~~~~~~~";
+echo -e   $cyan"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 
-echo -e $red"
+echo -e $red"                                                                                                  ";
 
-echo -e $red"
+echo -e $red"  NN                          N                                                                   ";
 
-echo -e $red"
+echo -e $red"  N  N                        N                                                                   ";
 
-echo -e $red"
+echo -e $red"  N     N                     N   MM               MM                                             ";
+ 
+echo -e $blue" N        N                  N   M  M           M  M   P P P P P   P P P P P                     ";
 
-echo -e $blue"
+echo -e $blue" N           N               N   M    M       M    M   P       P   P       P   E E E E   RRRRRR  ";
+                                                                                             E         R  R    ";
+echo -e $blue" N               N           N   M      M   M      M   P P P P P   P P P P P   EEEEEEE   RR      ";
+                                                                                             E         R  R    ";
+echo -e $red"  N                  N        N   M       MMM       M   P           P           E E E E   R    R  ";
 
-echo -e $blue"
+echo -e $red"  N                      N    N                         P           P                             ";
 
-echo -e $blue"
+echo -e $red"  N                          NN                                                                   ";
 
-echo -e $red"
+echo -e $red"                                                                                                  ";
 
-echo -e $red"
-
-echo -e $red"
-
-echo -e $red"
-
-echo -e $cyan"~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+echo -e $cyan"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 
 echo
 
@@ -717,4 +717,63 @@ echo -e $blue"press enter to go back" enter
 bash nmapper.sh
 
 fi
+echo 
 
+if [ $ipp = 0 ] 
+
+then
+
+clear
+
+echo
+
+echo -e $red"===============================================================================";
+
+echo -e $green"                                                                             ";
+
+echo -e $green" _______             _______  _______  _______           _______             ";
+
+echo -e $green"(  ____ \           (  ____ \(  ____ )(  ___  )|\     /|(  ____ )            ";
+
+echo -e $red"  | (    \/           | (    \/| (    )|| (   ) || )   ( || (    )|            ";
+
+echo -e $red"  | |         _____   | |      | (____)|| |   | || |   | || (____)|.           ";
+
+echo -e $red"  | |        (_____)  | | ____ |     __)| |   | || |   | ||  _____).           ";
+
+
+
+echo -e $red"  | |                 | | \_  )| (\ (   | |   | || |   | || (                  ";    
+
+echo -e $blue" | (____/\           | (___) || ) \ \__| (___) || (___) || )                  ";    
+
+echo -e $blue" (_______/           (_______)|/   \__/(_______)(_______)|/                   ";     
+
+                                                                 
+
+  
+
+
+
+
+
+
+
+  
+                     
+
+              
+
+echo -e $blue"                                                                              ";                
+
+echo -e $red" ==============================================================================";                  
+
+
+
+echo
+
+exit
+
+else
+
+bash nmapper.sh
