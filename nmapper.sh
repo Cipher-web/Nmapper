@@ -45,11 +45,11 @@ pkg install git
 clear
 
 echo -e $green"Requirements Installed"
-sleep 3
+sleep 1
 
 clear
 
-echo
+
 
 
 
@@ -67,13 +67,13 @@ echo
 
 
 
-echo
+
 
 echo
 
 toilet -f smblock --filter border:metal "NMAPPER" 
 
-echo
+
 
 echo
 
