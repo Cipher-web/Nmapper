@@ -22,23 +22,23 @@ sleep 1
 
 clear
 
-i=1
 
-sp="/-\|"
 
-echo -n ' '
 
-while true
 
-do
 
-    printf "\b${sp:i++%${#sp}:1}"
 
-done
+
+
+
+
+
+
+
 
 pkg install nmap
 
-pkg install figlet
+pkg install toilet
 
 pkg install git
 
@@ -80,7 +80,7 @@ echo
 
 echo
 
-echo -e $green"Created By CIPHE3R" 
+toilet -f smblock --filter border:metal "Created By CIPHE3R" 
 
 echo
 
