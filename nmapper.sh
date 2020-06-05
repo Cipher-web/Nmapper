@@ -217,9 +217,9 @@ echo
 
 echo
 
-read -p $cyan "Select an option :" ipp
+read -p $cyan"Select an option :" ipp
 
-read -p $cyan "Enter site or its ip  :" ip
+read -p $cyan"Enter site or its ip  :" ip
 
 if [ $ipp = 1 ] 
 
